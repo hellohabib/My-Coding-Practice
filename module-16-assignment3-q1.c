@@ -29,7 +29,7 @@ int main(){
             }
         }
         else{
-            for(int j=n+1; j>0; j-=2 )
+            for(int j=2*i-1; j>=1; j-- )
             {
         //---
                     if(i==1)
