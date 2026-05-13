@@ -6,7 +6,8 @@ void printNum(int i, int n){
         return;        
     }
     printNum(i+1,n);
-    printf("%d\n", i);       
+    printf("%d\n", i);   
+    
 }
 
 int main(){
